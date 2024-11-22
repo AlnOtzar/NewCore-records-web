@@ -1,0 +1,107 @@
+.fondo {
+    background-image: url('img/fondoEstudio.jpg'); /* Ruta de la imagen */
+    background-size: cover; /* Asegura que la imagen cubra toda el área */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* Hace que la imagen se quede fija durante el scroll */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    width: 100%;
+    height: 100vh; /* Altura total de la ventana */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* Cambia el color del texto */
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semi-transparente */
+}
+
+.contenedor-centro {
+    background-color: rgba(253, 249, 219, 0.7); /* Fondo semi-transparente con el color que pediste */
+    backdrop-filter: blur(10px); /* Efecto de difuminado */
+    box-shadow: 0 0 20px 10px rgba(253, 249, 219, 0.8); /* Sombra brillante */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 90%; /* Ocupa el 90% del ancho disponible */
+    text-align: center;
+    color: #40241a; /* Color del texto */
+}
+
+.contenedor-centro h1,
+.contenedor-centro h2 {
+    font-family: 'Funnel Sans';
+    color: #40241a;
+    margin-bottom: 15px;
+
+}
+
+
+
+.contenedor-centro input {
+    width: 75%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px #fdf9db;
+    border-radius: 5px;
+    background-color: #fdf9db;
+    transition: all 0.2s ease;
+}
+.contenedor-centro input:hover {
+    box-shadow: 0 0 30px #00bfc3;
+
+}
+
+
+.contenedor-centro button {
+    width: 50%;
+    padding: 30px;
+    margin: 20px 0;
+    background-color: #ff2273;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    animation: colorin 5s infinite ;
+    
+
+
+}
+
+
+.contenedor-centro a {
+    color: #40241a;
+    text-decoration: none;
+}
+
+.contenedor-centro a:hover {
+    text-decoration: underline;
+}
+
+@keyframes colo {
+    0% { color: #880032; }
+    50% { color: #ff2273; }
+    100% { color: #880032; }
+}
+
+.error{
+    font-family: 'Funnel Sans';
+    color: #ff2273;
+    animation: colo 1s infinite;
+    font-weight: bold;
+}
+
+@keyframes colorin {
+    0% { background-color: #ff35a7; }
+    50% {  background-color: #ff2273; }
+    100% {  background-color: #ff35a7; }
+}
+
+.error{
+    font-family: 'Funnel Sans';
+    color: #ff2273;
+    animation: colo 1s infinite;
+    font-weight: bold;
+}

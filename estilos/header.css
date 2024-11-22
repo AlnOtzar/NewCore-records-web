@@ -1,0 +1,70 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.header {
+    background: linear-gradient(135deg,#f1c40f, #fdf9db, #fdf9db, #fdf9db, #fdf9db, #ece8cd,#fdf8db,#fdf9db, #ff2273, #00bfc3); 
+    color: #40241a;
+    padding: 10px 0;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.8); 
+    height: 2cm; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    z-index: 1000; /* Asegura que el header se quede por encima de otros elementos */
+}
+
+
+/* Contenedor dentro del nav */
+.navegacion .contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espacia el logo y el título */
+    max-width: 1200px; /* Anchura máxima */
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+
+/* Logo a la izquierda */
+.logo img {
+    padding-top: 0.2cm;
+    width: 1.8cm; /* Ajusta el tamaño del logo */
+    height: auto;
+    display: flex;
+}
+
+/* Título centrado */
+.titulo {
+    position: absolute;
+    top: 50%; /* Posiciona al centro verticalmente */
+    left: 50%; /* Posiciona al centro horizontalmente */
+    transform: translate(-50%, -50%); /* Ajuste para centrar exactamente */
+    text-align: center;    
+
+}
+
+@keyframes cambioColor {
+    0% {color: #40241a; } /* Base */
+    25% {color: #826857; } /* Marrón cálido */
+    50% {color: #40241a; } /* Tono más claro y cálido */
+    75% {color: #564032; } /* Beige rosado */
+    100% {color: #40241a; } /* Regresa al color base */
+}
+
+.titulo h1 {
+    font-family: 'Monoton'; /* Fuente personalizada */
+    font-size: 30px; /* Tamaño del texto */
+    color: #40241a; /* Color claro para el título */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    animation: cambioColor 5s infinite; /* Cambia de color cada 3 segundos */
+
+}
+
+

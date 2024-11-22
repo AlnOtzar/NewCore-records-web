@@ -1,0 +1,90 @@
+/* Fondo de la página */
+.fondo {
+    background-image: url('img/fondoEstudio4.jpg');
+    background-position: center; 
+    background-attachment: fixed;
+    /* imagen fija */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000000; 
+    text-align: center;
+    font-family: 'Funnel Sans';
+    justify-content: flex-start;
+    padding-top: 100px; 
+    /* Espacio para evitar encimarse con el header xd*/
+    background-color: #ff2273;
+
+    
+}
+
+.contenedor-centro {
+    margin-top: 1cm;
+    background-color: rgba(0, 0, 0, 0.2); 
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.8); 
+    padding: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    width: 90%; /* Ocupa el 90% del ancho disponible */
+    text-align: center;
+    color: #fdf9db; /* Color del texto */
+}
+
+/* Títulos dentro del contenedor */
+.contenedor-centro h1, h3 {
+    font-family: 'Funnel Sans';
+    color: #fdf9db;
+    margin-bottom: 15px;
+}
+
+/* Estilo de los inputs */
+.contenedor-centro input, .contenedor-centro select {
+    width: 75%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #fdf9db;
+    border-radius: 5px;
+    background-color: #fdf9db;
+    transition: all 0.2s ease;
+}
+
+.contenedor-centro input:hover, .contenedor-centro select:hover {
+    box-shadow: 0 0 30px #00bfc3;
+}
+
+/* Estilo del botón */
+.contenedor-centro button {
+    width: 50%;
+    padding: 15px;
+    margin: 20px 0;
+    background-color: #ff2273;
+    color: #fdf9db;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contenedor-centro button:hover {
+    box-shadow: 0 0 50px #00bfc3;
+    background-color: #00bfc3;
+    border: 2px solid #00bfc3;
+}
+
+/* Enlaces */
+.contenedor-centro a {
+    color: #fdf9db;
+    text-decoration: none;
+}
+
+.contenedor-centro a:hover {
+    text-decoration: underline;
+}

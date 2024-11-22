@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
+    background: linear-gradient(135deg, #6d4c40, #40241a, #5d473f); /* Degradado en tonos de café */
+
+
+}
+
+main {
+    flex: 1; /* El contenido principal ocupa el espacio restante */
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center; /* Centra los elementos del footer */
+    align-items: center; /* Alinea verticalmente */
+    background: linear-gradient(135deg, #6d4c40, #40241a, #5d473f); /* Degradado en tonos de café */
+    color: #fdf9db;
+    padding: 20px 0; /* Un poco más de padding para que el contenido no esté tan apretado */
+    margin-top: auto; /* Asegura que el footer siempre se mantenga al final de la página */
+    width: 100%;
+    z-index: 1000;
+    text-align: center; /* Asegura que el texto del footer esté centrado */
+}
+
+
+footer a {
+    color: #fdf9db;
+    text-decoration: none;
+    margin: 0 15px; /* Añade espacio entre los enlaces */
+}
+.tipografia {
+    color: #fdf9db;
+    font-family: 'Monoton';
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+p{
+    color: #fdf9db; 
+}
