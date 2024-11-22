@@ -1,21 +1,21 @@
 /* Fondo de la página */
 .fondo {
     background-image: url('img/fondoEstudio2.jpg');
-    background-size: cover; /* Asegura que la imagen cubra toda el área */
-    background-position: center; /* Centra la imagen */
-    background-attachment: fixed;/*imagen fija*/
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
     width: 100%;
     height: 180vh; 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #000000; /* Cambia el color del texto */
+    color: #000000; 
     text-align: center;
     font-family: 'Funnel Sans';
     justify-content: flex-start;
-    padding-top: 100px; /* Espacio para evitar encimarse con el header */
+    padding-top: 100px; 
 
     
 }
@@ -32,27 +32,25 @@ h5{
 
 }
 
-/* Estilo para la tabla */
 table {
     font-family: 'Funnel Sans';
     border-collapse: separate;
     background-color: #00c0c340;
 
-    backdrop-filter: blur(6px); /* Efecto de difuminado */
-    box-shadow: 0 0 20px 10px rgba(0, 255, 238, 0.467); /* Sombra brillante */
+    backdrop-filter: blur(6px);
+    box-shadow: 0 0 20px 10px rgba(0, 255, 238, 0.467); 
     padding: 20px;
     border-radius: 10px;
     width: 80%; 
     text-align: center;
-    color: #40241a; /* Color del texto */
-    margin-bottom: 20px; /* Añade margen debajo */
+    color: #40241a;
+    margin-bottom: 20px; 
     margin-left: auto;
-    margin-right: auto; /* Esto centra la tabla */
+    margin-right: auto;
     border-spacing: 5px;
 
 }
 
-/* Estilo para las celdas de la tabla */
 table th,
 table td {
     font-family: 'Funnel Sans';
@@ -62,14 +60,12 @@ table td {
 
 }
 
-/* Estilo para columnas pares */
 table td:nth-child(even){
-    background-color: rgba(0, 0, 0, 0.668); /* Tono más claro */
+    background-color: rgba(0, 0, 0, 0.668);
 }
 
-/* Estilo para columnas impares */
 table td:nth-child(odd){
-    background-color: rgba(0, 0, 0, 0.464); /* Tono ligeramente oscuro */
+    background-color: rgba(0, 0, 0, 0.464);
 }
 
 
@@ -80,17 +76,16 @@ table th {
     background-color: #ff2273;
     color: #fdf9db;
     font-weight: bold;
-    background-color: rgba(243, 5, 136, 0.51); /* Fondo semi-transparente */
+    background-color: rgba(243, 5, 136, 0.51);
 
 }
 
 table td {
     color: #fdf9db;
     font-family: 'Funnel Sans';
-    background-color: rgba(0, 179, 255, 0); /* Fondo semi-transparente */
+    background-color: rgba(0, 179, 255, 0); 
 }
 
-/* Estilo para los enlaces */
 a {
     font-family: 'Funnel Sans';
     text-decoration: none;
@@ -105,11 +100,11 @@ a:hover {
 
 .rectangulo {
     background: linear-gradient(34deg, rgba(255, 220, 252, 1) 0%, rgba(253, 249, 219, 1) 28%, rgba(255, 251, 234, 1) 51%, rgba(253, 249, 219, 1) 76%, rgba(155, 254, 255, 1) 100%);
-    width: 100%; /* Ocupa todo el ancho */
+    width: 100%;
     padding: 20px;
     display: flex;
     align-items: center;
-    font-family: 'Funnel Sans'; /* Tipografía */
+    font-family: 'Funnel Sans';
     box-sizing: border-box;
     justify-content: space-around;
     box-shadow: 0 0px 30px rgba(255, 255, 0, 1);
@@ -119,23 +114,22 @@ a:hover {
 
 
 .rectangulo button {
-    background-color: #6f4f37; /* Color café */
-    color: white; /* Color de texto blanco */
+    background-color: #6f4f37;
+    color: white; 
     border: none;
     padding: 10px 20px;
-    font-family: 'Funnel Sans'; /* Tipografía */
+    font-family: 'Funnel Sans';
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Transición suave */
+    transition: background-color 0.3s ease; 
 }
 
 .rectangulo button:hover {
-    box-shadow: 0 0 20px rgba(255, 34, 115, 1); /* Sombra rosa */
+    box-shadow: 0 0 20px rgba(255, 34, 115, 1); 
 
-    background-color: #ff2273; /* Color rosa al pasar el ratón */
+    background-color: #ff2273; 
 }
 .footer-container {
-    /* Puedes agregar estilos personalizados aquí */
-    background-color: #333;  /* Ejemplo: color de fondo */
+    background-color: #333;  
 }

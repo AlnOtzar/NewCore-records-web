@@ -1,22 +1,19 @@
-
-
-/* Fondo de la página */
 .fondo {
     background-image: url('img/fondoEstudio3.jpg');
-    background-position: center; /* Centra la imagen */
-    background-attachment: fixed;/*imagen fija*/
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     width: 100%;
     height: 150vh; 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #000000; /* Cambia el color del texto */
+    color: #000000; 
     text-align: center;
     font-family: 'Funnel Sans';
     justify-content: flex-start;
-    padding-top: 100px; /* Espacio para evitar encimarse con el header */
+    padding-top: 100px; 
     background-color: #00bfc3;
 
     
@@ -28,29 +25,27 @@
     margin-bottom: 0.5cm;
 }
 
-/* Contenedor principal que tiene el formulario */
+
 .contenedor-centro {
     margin-top: 1cm;
-    background-color: rgba(0, 0, 0, 0.2); /* Fondo semi-transparente con el color que pediste */
-    backdrop-filter: blur(10px); /* Efecto de difuminado */
-    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.8); /* Sombra brillante */
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.8);
     padding: 20px;
     padding-top: 20px;
     border-radius: 10px;
     max-width: 800px;
-    width: 80%; /* Ocupa el 90% del ancho disponible */
+    width: 80%; 
     text-align: center;
-    color: #fdf9db; /* Color del texto */
+    color: #fdf9db; 
 }
 
-/* Títulos dentro del contenedor */
 .contenedor-centro h1, h3 {
     font-family: 'Funnel Sans';
     color: #fdf9db;
     margin-bottom: 15px;
 }
 
-/* Estilo de los inputs */
 .contenedor-centro input, .contenedor-centro select {
     width: 80%;
     box-sizing: border-box;
@@ -76,7 +71,6 @@
 
 }
 
-/* Estilo del botón */
 .contenedor-centro button {
     width: 50%;
     padding: 15px;
@@ -110,9 +104,9 @@
 
 .contenedor-centro form div {
     display: grid;
-    grid-template-columns: 200px auto; /* Etiqueta fija e input flexible */
-    gap: 10px 20px; /* Espaciado entre filas y columnas */
-    align-items: center; /* Centra verticalmente */
+    grid-template-columns: 200px auto; 
+    gap: 10px 20px; 
+    align-items: center;
 }
 
 .contenedor-centro label {

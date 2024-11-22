@@ -5,9 +5,6 @@ $user_db = "root";
 $pass_db = "ImpliedFiber356@";
 $db_name = "Disquera";
 
-// 1234567899
-// 123456
-
 
 $conexion = new mysqli($host_db,$user_db,$pass_db,$db_name);
 
