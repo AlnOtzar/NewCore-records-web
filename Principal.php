@@ -27,7 +27,7 @@ if (!isset($email)) {
 
 
     <header>";
-    include './estilos/header.php';
+    include './estilos/header2.php';
     echo "</header>
         
     <div class='fondo'>
@@ -86,7 +86,6 @@ if (!isset($email)) {
     <div class="rectangulo">
         <a href="EliminarUsuario.php"><button>Eliminar Usuario</button></a>
         <a href="Registro.php"><button>Registro</button></a>
-        <a href="logica/salir.php"><button>Cerrar sesión</button></a>
     </div>
     ';
     echo "</div>"; // Aquí cerramos la div de clase 'fondo'

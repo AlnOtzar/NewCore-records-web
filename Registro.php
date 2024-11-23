@@ -26,7 +26,7 @@ if (!isset($email)) {
 
 <header>
     <?php
-    include "./estilos/header.php";
+    include "./estilos/header2.php";
     ?>
 </header>
 

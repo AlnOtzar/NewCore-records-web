@@ -26,7 +26,7 @@ if (!isset($email)) {
 
 <header>
     <?php
-    include "./estilos/header.php";
+    include "./estilos/header2.php";
     ?>
 </header>
 
@@ -40,12 +40,12 @@ if (!isset($email)) {
         </form>
         <a href="Principal.php">Inicio</a>
     </div>
-</body>
 
 <footer>  
     <?php
         include "./estilos/footer.php";
     ?>
-    </footer>
+</footer>
+</body>
 
 </html>

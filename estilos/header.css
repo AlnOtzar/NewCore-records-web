@@ -32,8 +32,8 @@
 
 
 .logo img {
-    padding-top: 0.2cm;
-    width: 1.8cm; 
+    padding-top: 0.1cm;
+    width: 2cm; 
     height: auto;
     display: flex;
 }
@@ -64,4 +64,37 @@
 
 }
 
+.botonxd{
+    background-color: #40241a56;
+    border-color: #40241a56;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2); 
+    color: #ece8cd;
+    font-size: 16px;
+    font-family: 'Funnel Sans';
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 0.1cm;
+    backdrop-filter: blur(10px);
+    font-weight: bold;
+    transition: background-color 0.3s ease; 
+    transition: box-shadow 0.3s ease; 
+
+
+}
+
+@keyframes cambioColor2 {
+    0% {background-color: #ff2273; }
+    50% {background-color: #ece8cd; }
+    100% {background-color: #ff2273; } 
+}
+
+.botonxd:hover {
+    box-shadow: 0 0 30px 10px rgba(255, 34, 115, 0.5); 
+
+    background-color: #ff2273;
+    color: #00bfc3; 
+    animation: cambioColor2 10s infinite; 
+
+}
 
